@@ -265,6 +265,16 @@
           </dependency>
         </dependencies>
       </plugin>
+
+      <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>appengine-maven-plugin</artifactId>
+        <version>2.2.0</version>
+        <configuration>
+          <version>1</version>
+          <projectId>dsc-fptu-hcmc-orientation</projectId>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
